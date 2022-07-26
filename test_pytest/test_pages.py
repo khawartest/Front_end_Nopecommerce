@@ -41,7 +41,6 @@ class TestLogin:
         signup.reg_button()
         signup.reg_logout_txt()
         time.sleep(5)
-
     # register section coding end here
 
     # Login section coding start here
@@ -55,7 +54,6 @@ class TestLogin:
         login.l_password(txt.password)
         login.l_btn()
         time.sleep(10)
-
     # Login section coding end here
 
     # computer page-->Desktop section start
@@ -72,7 +70,6 @@ class TestLogin:
         desktop.addcart_btn()
         desktop.wishlist_btn()
         desktop.comparelist_btn()
-
     # computer page-->Desktop section end
 
     # computer page-->Notebooks section start
@@ -95,7 +92,6 @@ class TestLogin:
         notebook.zip_code(txt.zipcode)
         notebook.submit_btn()
         notebook.main_tab()
-
     # computer page-->Notebooks section end
 
     # computer page-->software section start
@@ -121,7 +117,6 @@ class TestLogin:
         software.frind_email(txt.f_email)
         software.personal_message(txt.m_box)
         software.send_email_to_friend_btn()
-
     # computer page-->software section end
 
     # electronics page-->camera_photo section start
@@ -132,7 +127,6 @@ class TestLogin:
         cam_pic.cam_photo_home_post()
         cam_pic.cam_detail_post()
         cam_pic.cam_detail_post_review()
-
     # electronics page-->camera_photo section end
 
     # electronics page-->cell phone section start
@@ -142,7 +136,6 @@ class TestLogin:
         self.driver.get(pages_links.electronics_parent_page)
         c_phone.cell_phone_home_post()
         c_phone.detail_page1()
-
     # electronics page-->cell phone section end
 
     # electronics page-->others section start
@@ -153,7 +146,6 @@ class TestLogin:
         others.new_tab_other()
         others.new_tab_1()
         others.new_tab_2()
-
     # electronics page-->others section end
 
     # apparel page-->shoes phone section start
@@ -164,7 +156,6 @@ class TestLogin:
         shoes.hover_apparel_shoes_page(driver)
         shoes.filter()
         shoes.add_cart_btn()
-
     # apparel page-->shoes phone section end
 
     # apparel page-->cloth phone section start
@@ -174,7 +165,6 @@ class TestLogin:
         self.driver.get(pages_links.apparel_parent_page)
         cloth.hover_apparel_cloth_page(driver)
         cloth.cloths_detail_post(txt.cloth_text)
-
     # apparel page-->cloth phone section end
 
     # apparel page-->Accessories section start
@@ -183,7 +173,6 @@ class TestLogin:
         access = accessories_page(driver)
         access.hover_apparel_accessories_page(driver)
         access.accessories_detail_page()
-
     # apparel page-->Accessories section end
 
     # apparel page-->Digital-downloads section start
@@ -192,7 +181,6 @@ class TestLogin:
         digital = download_digital_page(driver)
         digital.digital_download_page()
         digital.detail_page()
-
     # apparel page-->Digital-downloads section end
 
     # @allure.severity(allure.severity_level.NORMAL)
