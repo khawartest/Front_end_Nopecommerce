@@ -1,0 +1,12 @@
+class txt:
+    first_name = "Khawar"
+    last_name = "Jehangiri"
+    email = "testing@gmail.com"
+    password = "2brzG@34HjLRHF"
+    confirm_pass = "2brzG@34HjLRHF"
+    zipcode = "0000"
+    f_email = "abctesting@gmail.com"
+    m_box = "testing testing"
+    review_title = "testing"
+    ReviewText_area = "testing"
+    cloth_text = "testing"
