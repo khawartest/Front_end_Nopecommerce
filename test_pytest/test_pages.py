@@ -29,7 +29,7 @@ class TestLogin:
     def test_signup(self):
         driver = self.driver
         self.driver.get(pages_links.base_link)
-        time.sleep(5)
+        time.sleep(10)
         signup = SignUp(driver)
         signup.register_text_link()
         signup.reg_select_gender()
